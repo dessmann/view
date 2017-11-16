@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/maskRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/view_dialog_custom_corner">
+
+    <ImageView
+        android:id="@+id/maskImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/maskBtn"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_normal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"
+        android:textColor="@color/colorWhite"/>
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--仿支付宝密码输入框-->
+    <declare-styleable name="PwdEditText">
+        <!--圆角半径-->
+        <attr name="borderCornerRadius" format="float" />
+        <!--密码长度-->
+        <attr name="passwordLength" format="integer" />
+        <!--背景颜色-->
+        <attr name="bgColor" format="color" />
+        <!--线宽度-->
+        <attr name="lineWidth" format="float" />
+        <!--线颜色-->
+        <attr name="lineColor" format="color" />
+        <!--密码点半径-->
+        <attr name="dotRadius" format="float" />
+        <!--点颜色-->
+        <attr name="dotColor" format="color" />
+        <!--显示内容-->
+        <attr name="showContent" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="GestureView">
+        <!--列数-->
+        <attr name="column" format="integer" />
+        <!--每个圆图半径-->
+        <attr name="imgRadius" format="integer" />
+        <!--圆图间隔-->
+        <attr name="imgSpace" format="integer" />
+        <!--普通圆-->
+        <attr name="imgNormal" format="reference" />
+        <!--选中圆-->
+        <attr name="imgSelect" format="reference" />
+        <!--线条颜色-->
+        <attr name="gestureLineColor" format="color" />
+        <!--线条粗细-->
+        <attr name="gestureLineWidth" format="float" />
+    </declare-styleable>
+    <!--圆形进度条-->
+    <declare-styleable name="CircleProgress">
+        <!--偏移角度-->
+        <attr name="progressOffsetAngle" format="float" />
+        <!--进度条颜色-->
+        <attr name="progressColor" format="color" />
+        <!--进度条背景颜色-->
+        <attr name="progressBackgroundColor" format="color" />
+        <!--进度条宽度-->
+        <attr name="progressWidth" format="float" />
+        <!--最大进度-->
+        <attr name="progressMax" format="float" />
+        <!--字体颜色-->
+        <attr name="textColor" format="color" />
+        <!--字体大小-->
+        <attr name="textSize" format="float" />
+    </declare-styleable>
+
+    <!--圆形图片显示控件-->
+    <declare-styleable name="RoundImageView">
+        <!--边框的厚度-->
+        <attr name="border_thickness" format="integer" />
+        <!--外层边框的颜色-->
+        <attr name="border_outside_color" format="color" />
+        <!--内层边框的颜色-->
+        <attr name="border_inside_color" format="color" />
+    </declare-styleable>
+    <!--指示器-->
+    <declare-styleable name="ViewPagerIndicator">
+        <!--半径-->
+        <attr name="radius" format="integer" />
+        <!--普通颜色-->
+        <attr name="colorNormal" format="color" />
+        <!--选中颜色-->
+        <attr name="colorSelected" format="color" />
+        <!--间距-->
+        <attr name="padding" format="integer" />
+        <!--数量-->
+        <attr name="num" format="integer" />
+    </declare-styleable>
+    <!--左滑删除控件-->
+    <declare-styleable name="SwipeItemLayout">
+        <!--能否滑动-->
+        <attr name="isSwipeEnable" format="boolean" />
+        <!--是否左滑-->
+        <attr name="isLeftSwipe" format="boolean" />
+    </declare-styleable>
+    <!--日历选择控件-->
+    <declare-styleable name="CalenderView">
+        <!--头部星期字体颜色-->
+        <attr name="headerTextColorCV" format="color" />
+        <!--头部星期字体大小-->
+        <attr name="headerTextSizeCV" format="float" />
+        <!--日期字体颜色-->
+        <attr name="dateTextColorCV" format="color" />
+        <!--日期字体大小-->
+        <attr name="dateTextSizeCV" format="float" />
+        <!--选中日期背景颜色-->
+        <attr name="selectBackColorCV" format="color" />
+        <!--选中日期字体颜色-->
+        <attr name="selectTextColorCV" format="color" />
+        <!--选中日期字体大小-->
+        <attr name="selectTextSizeCV" format="float" />
+    </declare-styleable>
+    <declare-styleable name="MaxHeightView">
+        <attr name="mhv_HeightRatio" format="reference|float" />
+        <attr name="mhv_HeightDimen" format="reference|dimension" />
+    </declare-styleable>
+    <declare-styleable name="ScaleImageView">
+        <attr name="scaleWidth" format="integer" />
+        <attr name="scaleHeight" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">lib_view</string>
+    <string name="view_cancel">取消</string>
+    <string name="view_date_ym" formatted="false">%d年%d月</string>
+    <!--customDialog-->
+    <string name="view_dialog_title">提示</string>
+    <string name="view_dialog_cancel">取消</string>
+    <string name="view_dialog_confirm">确定</string>
+
+    <string name="view_system_update">系统升级</string>
+    <string name="view_reboot_device">重启设备</string>
+    <string name="view_unbind">解除绑定</string>
+    <string name="need_location_permission">需要位置权限</string>
+    <string name="iKnow">我知道了</string>
+    <string name="dialogTitle">提示</string>
+    <string name="dialogCancel">取消</string>
+    <string name="dialogConfirm">确定</string>
+    <string name="dialogTips">提示</string>
+    <string name="jump">跳过</string>
+</resources>

@@ -1,0 +1,47 @@
+<resources>
+    <style name="NetWorkErrorDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--自定义弹窗样式-->
+    <style name="CustomDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <!--自定义小嘀管家蒙版提醒弹窗样式@color/maskbg-->
+    <style name="CustomMaskDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <!--进度条样式-->
+    <style name="CustomProgressDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+    <!--PopupWindow显示样式-->
+    <style name="PopupWindowSelectAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/view_slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/view_slide_out_bottom</item>
+    </style>
+    <!--日历弹窗显示样式-->
+    <style name="PopupWindowCalenderAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/view_slide_in_top</item>
+        <item name="android:windowExitAnimation">@anim/view_slide_out_top</item>
+    </style>
+    <!--中心展开收拢-->
+    <style name="CenterOpenClose" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/center_open</item>
+        <item name="android:windowExitAnimation">@anim/center_close</item>
+    </style>
+</resources>
